@@ -1,0 +1,314 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: SoleilRegular, Helvetica Neue, sans-serif;
+}
+html{
+  background-color: rgba(245, 245, 245, 0.973);
+  font-size:62.5%;
+}
+.container{
+background-image:url(images/frame.svg);
+background-position:center;
+background-size:45%;
+background-repeat:no-repeat;
+height:73vh;
+background-color: rgba(245, 245, 245, 0.973);
+}
+header{
+    height:2.5rem;
+    background-color: rgb(9, 34, 5);
+    text-align:right;
+    font-size:1.2rem;
+    padding-right:2.8rem;
+    }
+    header a{
+    color: white;
+    text-decoration:none;
+    }
+    header li{
+    display:inline-block;
+    padding:0.3rem;
+    }
+    .navbar a{
+    text-decoration:none;
+    color: black;
+    font-size:1.5rem;
+    }
+ .navbar li{
+  text-decoration: none;
+   display:inline;
+   padding:1.3rem;
+   }
+   .section-head{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding:3rem;
+}
+   .navbar1 a{
+  text-decoration: none;
+  color:black;
+  font-size:1.6rem;
+  padding-right:1rem;
+   }
+   .navbar1 li{
+    display:inline-block;
+   }
+   #one a{
+    background-color: rgb(9, 37, 13); 
+      color:  white; 
+      border-radius:10px;
+      padding:1rem  1.8rem;
+      font-size: 1.6rem;
+      margin-right:1.8rem ;
+   }
+   #one a:hover{
+    background-color: rgb(40, 100, 40); 
+   }
+   .section1{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding:7rem;
+   }
+   .two{
+    font-size:2.5rem;
+    font-weight:absolute;
+    text-align: center;
+    padding-bottom:1rem ;
+    }
+    .three{
+    font-size:3rem ;
+    }
+    .four{
+    text-align: center;
+    font-size:1.9rem;
+    padding-top:1rem;
+    }
+    .five{
+      text-align: center;
+    }
+    .five a{
+        text-decoration: none;
+        color:white;
+        background-color:rgb(11, 36, 11);
+        padding:1.6rem 5rem;
+        border-radius:8px;
+        font-size:1.8rem ;
+        
+        }
+        .five a:hover{
+          padding:1.6rem 5rem;
+          background-color: rgb(40, 100, 40); 
+         }
+        .six {
+      text-align:center;
+      margin-top:18rem;
+      margin-bottom:10rem;
+        }
+        .six a{
+        text-decoration: none;
+        color:green;
+        font-size:1.5rem;
+        
+        }
+.section2{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+align-items: center;
+text-align: center;
+padding:1.7rem;
+margin-top:2rem;
+background-color:rgba(255, 255, 255, 0.973);
+}
+.section2 p{
+font-size:1rem;
+margin-top: 0.8rem;
+}
+.section3{
+background-color: white;
+text-align:center;
+font-size:1.8rem;
+padding:3rem;
+border-bottom: 1px solid grey;
+}
+.section3 li{
+display:inline;
+padding:5rem;
+}
+.section4{
+  background-color:white ;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: center;
+  height:99vh;
+}
+.section4one{
+  width:100vw;
+  padding:2rem;
+  text-align: center;
+  justify-items: center;
+}
+.section4two{
+  width:80vw;
+  justify-items:center;
+}
+.section4one h1{
+  font-size:4.5rem;
+  text-align:center;
+  color:rgb(18, 58, 18);
+  padding:0.8rem;
+}
+.section4one p{
+  font-size:1.9rem;
+  padding:1rem;
+}
+#trade{
+background-color:rgb(16, 42, 16);
+padding:1.5rem 2.9rem;
+border-radius:0.5rem;
+margin:2rem;
+}
+#trade a{
+  text-decoration: none;
+  color:white;
+}
+#trade:hover{
+  background-color: rgb(40, 100, 40); 
+ 
+ }
+.section5{
+  display: flex;
+  flex-direction: row;
+  background-color:rgb(12, 46, 12) ;
+  color:rgb(220, 217, 217);
+  height:120vh;
+ justify-content: center;
+ 
+}
+.text1 h4{
+  text-align: center;
+  font-size:2.9rem;
+  background-color:rgb(12, 46, 12) ; 
+  color: white;
+  padding-top:10rem ;
+}
+.section5one{
+  display: flex;
+  flex-direction: column;
+  padding-left: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+.image{
+  text-align: center;
+  width:40vw;
+}
+.text{
+  width:30vw;
+  font-size:2rem;
+  font-weight: 100;
+  text-align:center;
+  padding: 1rem;
+}
+.section5two{
+  display: flex;
+  flex-direction: column;
+  padding-right:9rem;
+  justify-content: center;
+  align-items: center;
+}
+.image2{
+  text-align: center;
+  width:40vw;
+  padding:1rem;
+}
+.text2{
+  width:30vw;
+  font-size:2rem;
+  font-weight:lighter;
+  text-align:center; 
+  padding:1.8rem;
+}
+.section6{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  width:93vw;
+  height:120vh;
+  border-radius:5px;
+  margin-left:4rem;
+  margin-top:-30px;
+}
+.ratings{
+  width:50vw;
+  font-size:1.8rem;
+  font-weight:10;
+  text-align:justify; 
+  padding:5rem;
+  color:rgb(17, 61, 17);
+  
+}
+.ratings h3{
+  font-size:1.9rem;
+  text-align:start; 
+  width:35vw;
+  line-height:1.5;
+  margin-top:2rem;
+  
+}
+#talk{
+  background-color:rgb(16, 42, 16);
+  padding:1rem 2.5rem;
+  border-radius:0.5rem;
+  margin-top:5rem; 
+}
+#talk a{
+  text-decoration: none;
+  color:white;
+  font-size:1.5rem;
+}
+#talk:hover{
+  background-color:rgb(40, 100, 40); 
+ }
+.faisal{
+  text-align: center;
+  width:100vw;
+  padding-right:1rem;
+}
+footer{
+  background-color:rgb(249, 249, 249);
+  height:80vh;
+  margin-top:2rem;
+}
+footer img{
+  padding-top:4rem;
+  padding-left:8rem
+}
+table{
+  width:60%;
+  border:none;
+  padding:5rem;
+}
+th,td{
+  text-align:center;
+  padding:0.6rem;
+  font-size:1.5rem;
+}
+.footer2{
+  text-align: justify;
+  padding:4rem;
+  font-size:1.3rem;
+  border-top:1px solid grey;
+  background-color:rgb(249, 249, 249);
+  color: rgb(94, 94, 103);
+  height:70vh;
+}
